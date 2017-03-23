@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0!important;
+    padding: 0!important;
+}
+.navbar .user_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: #9d9d9d;
+    font-size: 18px;
+}
+.navbar .user_info img{
+    width: 40px;
+    margin-right: 10px;
+}
+#avatar{
+    height: 42px;
+}
+.wrapper{
+    height: auto;
+    min-height: 100%;
+    position: relative;
+}
+.fix_footer, .footer{
+    height: 101px;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.footer footer {
+    margin: 25px 0;
+}
+.contact_page .red{
+    color:red;
+}
+.personal_info .glyphicon{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.personal_info small{
+    display: block;
+    margin: 4px 0 10px;
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    color: #337ab7;
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
